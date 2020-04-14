@@ -76,3 +76,5 @@ router.delete('/:id', (req, res) => {
             res.status(500).json({ error: "failed to delete post"})
         })
 }); 
+
+module.exports = router;
