@@ -1,6 +1,6 @@
 // /api/accounts endpoint
 
-const express = required('express');
+const express = require('express');
 
 const db = require('../data/dbConfig.js');
 
